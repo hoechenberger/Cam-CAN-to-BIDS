@@ -1,0 +1,3766 @@
+Starting conversion.
+Participant CC110033: processing. [0.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110037: processing. [0.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110045: processing. [0.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110056: processing. [0.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110069: processing. [0.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110087: processing. [0.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110098: processing. [0.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110101: processing. [1.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110126: processing. [1.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110174: processing. [1.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110182: processing. [1.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110187: processing. [1.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110319: processing. [1.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110411: processing. [2.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC110606: processing. [2.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC112141: processing. [2.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120008: processing. [2.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120049: processing. [2.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120061: processing. [2.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120065: processing. [2.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120120: processing. [3.1%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC120137: skipping (reason: dataset incomplete).
+Participant CC120166: processing. [3.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120182: processing. [3.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120184: skipping (reason: dataset incomplete).
+Participant CC120208: skipping (reason: dataset incomplete).
+Participant CC120212: skipping (reason: dataset incomplete).
+Participant CC120218: processing. [4.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120264: processing. [4.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120276: processing. [4.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120309: processing. [4.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120313: processing. [4.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120319: processing. [4.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120347: processing. [5.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120376: processing. [5.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120409: processing. [5.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120462: processing. [5.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120469: processing. [5.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120470: processing. [5.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120550: processing. [6.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120640: processing. [6.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120727: processing. [6.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120764: processing. [6.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC120795: processing. [6.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121106: processing. [6.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121111: processing. [6.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121144: processing. [7.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121158: processing. [7.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121200: processing. [7.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121317: processing. [7.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121397: processing. [7.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121411: processing. [7.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121428: processing. [8.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121479: processing. [8.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121685: processing. [8.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC121795: skipping (reason: dataset incomplete).
+Participant CC122016: skipping (reason: dataset incomplete).
+Participant CC122172: processing. [8.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC122405: processing. [8.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC122620: processing. [9.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210023: processing. [9.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210051: processing. [9.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210088: processing. [9.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210124: processing. [9.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210148: processing. [9.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210172: processing. [10.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210174: skipping (reason: dataset incomplete).
+Participant CC210182: processing. [10.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210250: processing. [10.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210314: processing. [10.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210422: processing. [10.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210519: processing. [10.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210526: processing. [11.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210617: processing. [11.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC210657: processing. [11.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC212153: processing. [11.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220098: processing. [11.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220107: processing. [11.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220115: processing. [12.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220132: processing. [12.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220151: processing. [12.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220198: processing. [12.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220203: processing. [12.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220223: processing. [12.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220232: skipping (reason: dataset incomplete).
+Participant CC220234: processing. [13.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220284: processing. [13.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220323: processing. [13.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220335: processing. [13.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220352: processing. [13.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220372: processing. [13.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220419: processing. [14.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220506: processing. [14.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220511: skipping (reason: dataset incomplete).
+Participant CC220518: processing. [14.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220519: processing. [14.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220526: processing. [14.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220535: processing. [14.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220567: processing. [15.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220610: processing. [15.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220635: processing. [15.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220697: processing. [15.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220713: processing. [15.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220828: processing. [15.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220843: processing. [16.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220901: processing. [16.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220920: processing. [16.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220974: processing. [16.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC220999: processing. [16.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221002: processing. [16.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221031: processing. [16.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221033: processing. [17.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221040: skipping (reason: dataset incomplete).
+Participant CC221054: skipping (reason: dataset incomplete).
+Participant CC221107: skipping (reason: dataset incomplete).
+Participant CC221209: skipping (reason: dataset incomplete).
+Participant CC221220: processing. [17.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221244: processing. [17.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221324: processing. [18.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221336: processing. [18.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221352: processing. [18.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221373: processing. [18.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221487: processing. [18.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221511: processing. [18.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221527: processing. [19.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221565: processing. [19.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221585: processing. [19.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221595: processing. [19.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221648: processing. [19.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221733: skipping (reason: dataset incomplete).
+Participant CC221737: skipping (reason: dataset incomplete).
+Participant CC221740: processing. [20.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221755: processing. [20.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221775: processing. [20.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221828: processing. [20.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221886: processing. [20.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221935: processing. [20.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221954: processing. [21.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221977: processing. [21.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC221980: processing. [21.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222120: processing. [21.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222125: processing. [21.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222185: processing. [21.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222258: processing. [21.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222264: processing. [22.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222304: processing. [22.2%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC222326: processing. [22.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222367: processing. [22.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222496: processing. [22.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222555: processing. [22.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222652: processing. [23.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222797: processing. [23.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC222956: processing. [23.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC223085: processing. [23.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC223115: processing. [23.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC223286: processing. [23.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310008: processing. [23.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310051: processing. [24.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310052: processing. [24.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310086: processing. [24.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310129: processing. [24.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310135: processing. [24.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310142: processing. [24.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310160: processing. [25.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310203: processing. [25.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310214: processing. [25.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310224: processing. [25.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310252: processing. [25.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310256: processing. [25.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310331: processing. [25.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310361: processing. [26.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310385: processing. [26.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310391: processing. [26.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310397: processing. [26.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310400: processing. [26.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310410: processing. [26.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310414: processing. [27.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310450: processing. [27.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310463: processing. [27.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC310473: processing. [27.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC312058: processing. [27.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC312149: skipping (reason: dataset incomplete).
+Participant CC312222: processing. [27.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320002: processing. [28.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320022: processing. [28.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320059: processing. [28.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320088: processing. [28.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320089: processing. [28.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320107: processing. [28.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320109: processing. [29.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320160: processing. [29.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320202: processing. [29.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320206: processing. [29.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320218: processing. [29.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320267: processing. [29.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320297: processing. [29.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320321: processing. [30.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320325: processing. [30.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320336: processing. [30.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320342: processing. [30.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320359: processing. [30.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320361: skipping (reason: dataset incomplete).
+Participant CC320379: processing. [31.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320417: processing. [31.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320428: skipping (reason: dataset incomplete).
+Participant CC320429: processing. [31.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320445: skipping (reason: dataset incomplete).
+Participant CC320448: processing. [31.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320461: processing. [31.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320478: processing. [32.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320500: processing. [32.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320553: processing. [32.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320568: processing. [32.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320574: processing. [32.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320575: processing. [32.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320576: processing. [33.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320608: processing. [33.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320616: processing. [33.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320621: processing. [33.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320636: processing. [33.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320651: processing. [33.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320661: processing. [33.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320680: processing. [34.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320686: processing. [34.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320687: processing. [34.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320698: processing. [34.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320759: processing. [34.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320776: processing. [34.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320814: processing. [35.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320850: processing. [35.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320861: skipping (reason: dataset incomplete).
+Participant CC320870: processing. [35.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320888: processing. [35.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320893: processing. [35.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC320904: processing. [35.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321000: processing. [36.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321025: processing. [36.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321053: processing. [36.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321069: processing. [36.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321073: processing. [36.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321087: processing. [36.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321107: processing. [37.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321137: processing. [37.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321154: processing. [37.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321174: processing. [37.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321203: processing. [37.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321281: processing. [37.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321291: processing. [37.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321331: processing. [38.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321368: processing. [38.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321428: processing. [38.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321431: processing. [38.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321464: processing. [38.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321504: processing. [38.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321506: processing. [39.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321529: processing. [39.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321544: processing. [39.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321557: processing. [39.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321585: processing. [39.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321594: processing. [39.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321595: processing. [39.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321880: processing. [40.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321899: processing. [40.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC321976: processing. [40.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC322186: processing. [40.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410015: processing. [40.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410032: processing. [40.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410040: processing. [41.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410084: processing. [41.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410086: processing. [41.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410091: processing. [41.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410094: processing. [41.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410097: processing. [41.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410101: processing. [41.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410113: processing. [42.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410119: processing. [42.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410121: processing. [42.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410129: processing. [42.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410169: processing. [42.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410173: processing. [42.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410177: processing. [42.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410179: processing. [43.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410182: skipping (reason: dataset incomplete).
+Participant CC410220: processing. [43.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410222: processing. [43.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410226: processing. [43.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410243: processing. [43.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410248: processing. [44.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410251: processing. [44.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410284: processing. [44.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410286: skipping (reason: dataset incomplete).
+Participant CC410287: processing. [44.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410289: processing. [44.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410297: processing. [44.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410323: processing. [45.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410325: processing. [45.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410354: processing. [45.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410387: processing. [45.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410390: processing. [45.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC410432: processing. [45.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC412004: processing. [46.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC412021: processing. [46.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420004: processing. [46.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420060: processing. [46.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420061: processing. [46.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420071: processing. [46.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420075: processing. [46.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420089: processing. [47.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420091: processing. [47.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420094: processing. [47.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420100: processing. [47.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420137: processing. [47.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420143: processing. [47.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420148: processing. [48.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420149: processing. [48.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420157: processing. [48.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420162: processing. [48.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420167: processing. [48.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420173: processing. [48.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420180: processing. [48.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420182: processing. [49.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420197: processing. [49.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420198: processing. [49.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420202: processing. [49.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420204: processing. [49.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420217: processing. [49.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420222: processing. [50.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420226: processing. [50.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420229: processing. [50.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420231: processing. [50.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420236: processing. [50.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420241: processing. [50.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420244: skipping (reason: dataset incomplete).
+Participant CC420259: skipping (reason: dataset incomplete).
+Participant CC420260: processing. [51.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420261: processing. [51.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420286: processing. [51.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420322: processing. [51.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420324: processing. [51.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420348: processing. [52.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420356: processing. [52.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420364: skipping (reason: dataset incomplete).
+Participant CC420383: processing. [52.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420392: processing. [52.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420396: processing. [52.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420402: processing. [52.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420412: processing. [53.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420433: processing. [53.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420435: processing. [53.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420454: processing. [53.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420462: processing. [53.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420464: processing. [53.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420493: processing. [54.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420566: processing. [54.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420582: processing. [54.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420587: processing. [54.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420589: processing. [54.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420623: processing. [54.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420720: processing. [54.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420729: processing. [55.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420776: processing. [55.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC420888: processing. [55.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510039: processing. [55.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510043: processing. [55.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510050: processing. [55.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510076: processing. [56.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510086: processing. [56.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510115: processing. [56.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510161: processing. [56.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510163: processing. [56.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510208: processing. [56.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510220: processing. [56.9%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC510226: processing. [57.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510237: processing. [57.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510242: processing. [57.4%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC510243: processing. [57.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510255: processing. [57.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510256: skipping (reason: dataset incomplete).
+Participant CC510258: processing. [58.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510259: processing. [58.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510284: processing. [58.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510304: processing. [58.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510321: processing. [58.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510323: processing. [58.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510329: processing. [58.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510342: processing. [59.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510354: processing. [59.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510355: processing. [59.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510392: processing. [59.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510393: processing. [59.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510395: processing. [59.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510415: processing. [60.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510433: processing. [60.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510434: processing. [60.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510438: processing. [60.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510473: processing. [60.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510474: processing. [60.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510480: processing. [60.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510483: processing. [61.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510486: processing. [61.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510534: processing. [61.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510548: processing. [61.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510551: processing. [61.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510609: processing. [61.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510629: processing. [62.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC510639: skipping (reason: dataset incomplete).
+Participant CC510648: processing. [62.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC512003: skipping (reason: dataset incomplete).
+Participant CC520002: processing. [62.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520011: processing. [62.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520013: processing. [62.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520042: processing. [63.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520053: processing. [63.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520055: processing. [63.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520065: processing. [63.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520078: processing. [63.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520083: processing. [63.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520097: processing. [64.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520122: processing. [64.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520127: processing. [64.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520134: processing. [64.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520136: processing. [64.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520147: processing. [64.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520168: processing. [64.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520175: processing. [65.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520197: skipping (reason: dataset incomplete).
+Participant CC520200: processing. [65.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520209: processing. [65.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520211: processing. [65.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520215: processing. [65.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520239: processing. [66.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520247: processing. [66.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520253: processing. [66.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520254: processing. [66.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520279: processing. [66.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520287: processing. [66.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520377: processing. [66.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520390: processing. [67.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520391: processing. [67.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520395: processing. [67.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520398: processing. [67.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520424: processing. [67.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520436: skipping (reason: dataset incomplete).
+Participant CC520477: processing. [67.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520480: processing. [68.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520503: processing. [68.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520517: processing. [68.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520552: processing. [68.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520560: processing. [68.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520562: processing. [68.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520584: processing. [69.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520585: processing. [69.2%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC520597: processing. [69.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520607: processing. [69.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520624: processing. [69.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520673: processing. [69.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520745: processing. [69.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520775: processing. [70.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520868: processing. [70.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC520980: processing. [70.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC521040: processing. [70.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610022: processing. [70.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610028: processing. [70.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610039: processing. [71.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610040: processing. [71.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610046: processing. [71.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610050: processing. [71.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610051: skipping (reason: dataset incomplete).
+Participant CC610052: processing. [71.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610058: processing. [71.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610061: processing. [72.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610071: processing. [72.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610076: processing. [72.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610099: processing. [72.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610101: processing. [72.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610146: processing. [72.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610178: processing. [73.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610210: processing. [73.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610212: processing. [73.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610227: processing. [73.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610285: processing. [73.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610288: processing. [73.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610292: processing. [73.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610308: processing. [74.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610344: processing. [74.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610372: processing. [74.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610392: processing. [74.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610405: processing. [74.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610462: skipping (reason: dataset incomplete).
+Participant CC610469: processing. [75.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610496: processing. [75.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610508: processing. [75.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610568: processing. [75.5%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC610575: processing. [75.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610576: processing. [75.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610594: processing. [75.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610625: processing. [76.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610631: processing. [76.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610653: processing. [76.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610658: processing. [76.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC610671: processing. [76.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620005: processing. [76.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620026: processing. [77.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620044: skipping (reason: dataset incomplete).
+Participant CC620073: processing. [77.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620085: processing. [77.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620090: processing. [77.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620106: processing. [77.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620114: processing. [77.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620118: processing. [78.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620121: processing. [78.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620129: skipping (reason: dataset incomplete).
+Participant CC620152: processing. [78.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620164: processing. [78.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620193: processing. [78.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620259: processing. [79.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620262: processing. [79.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620264: processing. [79.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620279: processing. [79.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620284: processing. [79.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620314: processing. [79.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620354: processing. [79.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620359: processing. [80.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620405: processing. [80.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620406: processing. [80.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620413: processing. [80.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620429: processing. [80.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620436: processing. [80.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620444: processing. [81.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620451: processing. [81.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620454: processing. [81.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620466: processing. [81.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620479: processing. [81.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620490: processing. [81.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620496: processing. [81.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620499: processing. [82.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620515: processing. [82.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620518: processing. [82.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620526: skipping (reason: dataset incomplete).
+Participant CC620527: skipping (reason: dataset incomplete).
+Participant CC620549: skipping (reason: dataset incomplete).
+Participant CC620557: processing. [83.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620567: processing. [83.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620572: processing. [83.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620592: processing. [83.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620610: processing. [83.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620619: processing. [83.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620659: processing. [83.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620685: skipping (reason: dataset incomplete).
+Participant CC620720: processing. [84.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620785: processing. [84.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620793: processing. [84.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620821: processing. [84.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620885: processing. [84.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620919: processing. [85.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC620935: processing. [85.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621011: processing. [85.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621080: processing. [85.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621118: processing. [85.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621128: processing. [85.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621184: processing. [85.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621199: processing. [86.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621248: processing. [86.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621284: processing. [86.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC621642: processing. [86.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710037: processing. [86.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710088: processing. [86.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710131: processing. [87.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710154: processing. [87.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [1, 5, 6, 7, 8]
+Participant CC710176: processing. [87.3%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC710214: processing. [87.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710223: skipping (reason: dataset incomplete).
+Participant CC710313: processing. [87.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710342: processing. [87.9%]
+… rest
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… task
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [1, 2, 3, 4, 5]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+… passive
+/home/parietal/rhochenb/Development/Cam-CAN/Code/convert_camcan.py:120: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw = mne.io.read_raw_fif(raw_fname)
+Found events: [6, 7, 8, 9]
+/home/parietal/rhochenb/Development/mne-bids/mne_bids/write.py:1145: RuntimeWarning: Encountered an error while trying to read the birthday from the input data. No birthday will be set. Please check the integrity of the birthday information in the input data.
+  raw_orig = reader[ext](**raw._init_kwargs)
+Participant CC710350: processing. [88.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710382: processing. [88.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710429: processing. [88.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710446: processing. [88.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710462: processing. [88.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710486: processing. [88.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710494: skipping (reason: dataset incomplete).
+Participant CC710548: skipping (reason: dataset incomplete).
+Participant CC710551: skipping (reason: dataset incomplete).
+Participant CC710566: skipping (reason: dataset incomplete).
+Participant CC710591: processing. [89.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710664: processing. [89.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710679: processing. [89.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710858: processing. [90.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC710982: processing. [90.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711027: processing. [90.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711035: processing. [90.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711128: processing. [90.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711158: processing. [90.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711244: processing. [91.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC711245: processing. [91.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC712027: processing. [91.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720023: processing. [91.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720071: processing. [91.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720103: processing. [91.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720119: processing. [91.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720180: skipping (reason: dataset incomplete).
+Participant CC720188: processing. [92.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720238: processing. [92.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720290: processing. [92.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720304: processing. [92.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720329: processing. [92.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720330: skipping (reason: dataset incomplete).
+Participant CC720358: processing. [93.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720400: processing. [93.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720407: processing. [93.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720497: processing. [93.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720511: processing. [93.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720516: processing. [93.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720622: processing. [94.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720646: processing. [94.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720670: processing. [94.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720685: processing. [94.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720723: skipping (reason: dataset incomplete).
+Participant CC720774: skipping (reason: dataset incomplete).
+Participant CC720941: processing. [94.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC720986: processing. [95.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721052: processing. [95.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721107: processing. [95.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721114: processing. [95.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721224: processing. [95.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721291: processing. [95.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721292: processing. [96.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721374: processing. [96.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721377: processing. [96.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721392: processing. [96.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721418: processing. [96.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721434: processing. [96.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721449: skipping (reason: dataset incomplete).
+Participant CC721504: processing. [97.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721519: processing. [97.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721532: processing. [97.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721585: processing. [97.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721648: processing. [97.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721704: processing. [97.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721707: processing. [98.0%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721729: processing. [98.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721888: processing. [98.3%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721891: processing. [98.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC721894: processing. [98.6%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC722077: skipping (reason: dataset incomplete).
+Participant CC722421: processing. [98.9%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC722536: processing. [99.1%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC722542: processing. [99.2%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC722651: processing. [99.4%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC722891: processing. [99.5%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC723197: processing. [99.7%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Participant CC723395: processing. [99.8%]
+… rest
+… task
+Found events: [1, 2, 3, 4, 5]
+… passive
+Found events: [6, 7, 8, 9]
+Finished conversion.
+Process took 8:24:41.362257.
