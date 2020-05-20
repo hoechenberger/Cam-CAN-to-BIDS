@@ -20,6 +20,9 @@ trans_dir = pathlib.Path('/storage/inria/agramfor/camcan_derivatives/'
 participants = sorted([p.parts[-1] for p in base_path.glob('*')])
 experiments = ('rest', 'task', 'passive')
 
+date_sound_card_change = datetime(month=12, day=8, year=2011,
+                                  tzinfo=datetime.timezone.utc)
+
 overview = pd.DataFrame(columns=['T1', 'trans', *experiments,
                                  'dataset_complete'],
                         index=pd.Index(participants, name='Participant'))
@@ -157,11 +160,31 @@ for participant, dataset in overview.iterrows():
             descriptions = []
             sfreq = raw.info['sfreq']
 
+            before_sound_card = date_sound_card_change >= raw.info['meas_date']
+
+            scdelay = 13 if before_sound_card else 26
+
             for event in events:
                 onset_sample = event[0]
                 onset = onset_sample / sfreq
                 description = event_id_to_name_mapping[event[2]]
                 duration = event_name_to_duration_mapping[description]
+
+                # Apply delays in stimuli following file get_trial_info.m
+                # in the Cam-CAN release file
+                if event[2] in [6, 7, 8, 774, 775, 776]:
+                    assert exp == 'passive'
+                    delay = scdelay
+                elif event[2] in [9, 777]:
+                    assert exp == 'passive'
+                    delay = 34
+                elif event[2] in [1, 2, 3]:
+                    assert exp == 'task'
+                    delay = (scdelay + 34) // 2  # take mean between audio and vis
+                else:
+                    raise ValueError('Trigger not found')
+
+                onset += delay / sfreq
 
                 onsets.append(onset)
                 descriptions.append(description)
