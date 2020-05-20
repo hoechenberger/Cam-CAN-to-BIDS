@@ -1,6 +1,6 @@
 # %%
 import pathlib
-from datetime import datetime
+from datetime import datetime, timezone
 import pandas as pd
 import numpy as np
 import mne
@@ -21,7 +21,7 @@ participants = sorted([p.parts[-1] for p in base_path.glob('*')])
 experiments = ('rest', 'task', 'passive')
 
 date_sound_card_change = datetime(month=12, day=8, year=2011,
-                                  tzinfo=datetime.timezone.utc)
+                                  tzinfo=timezone.utc)
 
 overview = pd.DataFrame(columns=['T1', 'trans', *experiments,
                                  'dataset_complete'],
@@ -62,7 +62,7 @@ for participant in participants:
 for participant, excluded in exclude.items():
     overview.loc[participant, excluded] = False
 
-overview['dataset_complete'] = overview.loc[:, :-1].all(axis='columns')
+overview['dataset_complete'] = overview.iloc[:, :-1].all(axis='columns')
 
 
 # %%
@@ -174,13 +174,15 @@ for participant, dataset in overview.iterrows():
                 # in the Cam-CAN release file
                 if event[2] in [6, 7, 8, 774, 775, 776]:
                     assert exp == 'passive'
-                    delay = scdelay
+                    delay = scdelay  # audio delay
                 elif event[2] in [9, 777]:
                     assert exp == 'passive'
-                    delay = 34
+                    delay = 34  # visual delay
                 elif event[2] in [1, 2, 3]:
                     assert exp == 'task'
                     delay = (scdelay + 34) // 2  # take mean between audio and vis
+                elif event[2] in [4, 5]:
+                    pass  # catch have no delay
                 else:
                     raise ValueError('Trigger not found')
 
@@ -216,7 +218,7 @@ for participant, dataset in overview.iterrows():
                    overwrite=True,
                    verbose=False)
 
-        del bids_basename, participant, trans_fname, raw_fname, raw, events
+        del bids_basename, trans_fname, raw_fname, raw, events
 
 
 print('Finished conversion.')
