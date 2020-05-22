@@ -30,7 +30,9 @@ exclude = {'CC610462': ['task'],
            'CC512003': ['task'],
            'CC120208': ['passive'],
            'CC620685': ['passive'],
-           'CC620044': ['rest']}  # Triggers missing
+           'CC620044': ['rest'], # Triggers missing
+           'CC710154': ['passive'], # Weird triggers (might be fixable)
+           }
 
 # restart_from = 'CC510534'
 # restart_from = participants[-10]
@@ -154,22 +156,11 @@ for participant, dataset in overview.iterrows():
         if exp != 'rest':
             print(f'Found events: {sorted(set(events[:, 2]))}')
 
-            # Create Annotations
-            onsets = []
-            durations = []
-            descriptions = []
-            sfreq = raw.info['sfreq']
-
             before_sound_card = date_sound_card_change >= raw.info['meas_date']
 
             scdelay = 13 if before_sound_card else 26
 
             for event in events:
-                onset_sample = event[0]
-                onset = onset_sample / sfreq
-                description = event_id_to_name_mapping[event[2]]
-                duration = event_name_to_duration_mapping[description]
-
                 # Apply delays in stimuli following file get_trial_info.m
                 # in the Cam-CAN release file
                 if event[2] in [6, 7, 8, 774, 775, 776]:
@@ -186,20 +177,7 @@ for participant, dataset in overview.iterrows():
                 else:
                     raise ValueError('Trigger not found')
 
-                onset += delay / sfreq
-
-                onsets.append(onset)
-                descriptions.append(description)
-                durations.append(duration)
-
-                del onset_sample, onset, duration, description
-
-            annotations = mne.Annotations(onset=onsets,
-                                          duration=durations,
-                                          description=descriptions,
-                                          orig_time=raw.info['meas_date'])
-            raw.set_annotations(annotations)
-            del annotations, onsets, descriptions, durations
+                event[0] += delay
 
         bids_basename = make_bids_basename(subject=participant, task=exp)
         write_raw_bids(raw, bids_basename,
