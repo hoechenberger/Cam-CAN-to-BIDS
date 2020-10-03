@@ -8,16 +8,16 @@ from mne_bids import write_raw_bids, make_bids_basename, write_anat
 
 mne.set_log_level(verbose=False)
 
-base_path = pathlib.Path('/storage/store/data/camcan/camcan47/cc700/meg/'
+input_path = pathlib.Path('/storage/store/data/camcan/camcan47/cc700/meg/'
                          'pipeline/release004/data/aamod_meg_get_fif_00001')
-bids_root = pathlib.Path('/storage/store2/work/rhochenb/Data/Cam-CAN/BIDS')
+output_path = pathlib.Path('/storage/store2/work/rhochenb/Data/Cam-CAN/BIDS')
 freesurfer_participants_dir = pathlib.Path('/storage/store/data/camcan-mne/'
                                            'freesurfer/')
 # trans_dir = pathlib.Path('/storage/store/data/camcan-mne/trans/')
 trans_dir = pathlib.Path('/storage/inria/agramfor/camcan_derivatives/'
                          'trans-krieger')
 
-participants = sorted([p.parts[-1] for p in base_path.glob('*')])
+participants = sorted([p.parts[-1] for p in input_path.glob('*')])
 experiments = ('rest', 'task', 'passive')
 
 date_sound_card_change = datetime(month=12, day=8, year=2011,
@@ -30,8 +30,8 @@ exclude = {'CC610462': ['task'],
            'CC512003': ['task'],
            'CC120208': ['passive'],
            'CC620685': ['passive'],
-           'CC620044': ['rest'], # Triggers missing
-           'CC710154': ['passive'], # Weird triggers (might be fixable)
+           'CC620044': ['rest'],     # Triggers missing
+           'CC710154': ['passive'],  # Weird triggers (might be fixable)
            }
 
 # restart_from = 'CC510534'
@@ -43,9 +43,6 @@ for participant in participants:
     t1w_fname = freesurfer_participants_dir / participant / 'mri' / 'T1.mgz'
     overview.loc[participant, 'T1'] = t1w_fname.exists()
 
-    # trans_fname = trans_dir / f'sub-{participant}-trans.fif'
-    # overview.loc[participant, 'trans'] = trans_fname.exists()
-
     try:
         trans_fname = list(trans_dir
                            .glob(f'{participant[2:]}-ve_tasks-??????.fif'))[0]
@@ -56,7 +53,7 @@ for participant in participants:
     overview.loc[participant, 'trans'] = trans_fname_exists
 
     for exp in experiments:
-        raw_fname = base_path / participant / exp / f'{exp}_raw.fif'
+        raw_fname = input_path / participant / exp / f'{exp}_raw.fif'
         overview.loc[participant, exp] = raw_fname.exists()
 
     del trans_fname_exists, t1w_fname, raw_fname, exp
@@ -81,19 +78,6 @@ event_name_to_id_mapping = {'audiovis/300Hz': 1,
                             'audio/1200Hz': 8,
                             'vis/checker': 9}
 
-event_id_to_name_mapping = dict(zip(event_name_to_id_mapping.values(),
-                                    event_name_to_id_mapping.keys()))
-
-event_name_to_duration_mapping = {'audiovis/300Hz': 0.3,
-                                  'audiovis/600Hz': 0.3,
-                                  'audiovis/1200Hz': 0.3,
-                                  'catch/0': 0,
-                                  'catch/1': 0,
-                                  'audio/300Hz': 0.3,
-                                  'audio/600Hz': 0.3,
-                                  'audio/1200Hz': 0.3,
-                                  'vis/checker': 0.034}
-
 stim_chs = ('STI001', 'STI002', 'STI003', 'STI004')
 
 # %%
@@ -104,7 +88,7 @@ for participant, dataset in overview.iterrows():
     msg = f'Participant {participant}: '
 
     if not dataset['dataset_complete']:
-        msg += f'skipping (reason: dataset incomplete).'
+        msg += 'kipping (reason: dataset incomplete).'
         print(msg)
         continue
 
@@ -116,7 +100,7 @@ for participant, dataset in overview.iterrows():
 
     for exp in experiments:
         print(f'… {exp}')
-        raw_fname = base_path / participant / exp / f'{exp}_raw.fif'
+        raw_fname = input_path / participant / exp / f'{exp}_raw.fif'
         t1w_fname = (freesurfer_participants_dir / participant / 'mri' /
                      'T1.mgz')
         # trans_fname = trans_dir / f'sub-{participant}-trans.fif'
@@ -124,11 +108,6 @@ for participant, dataset in overview.iterrows():
                            .glob(f'{participant[2:]}-ve_tasks-??????.fif'))[0]
 
         raw = mne.io.read_raw_fif(raw_fname)
-        # events = mne.find_events(raw,
-        #                          stim_channel='STI101',
-        #                          min_duration=0.002,
-        #                          uint_cast=False,
-        #                          initial_event=True)
 
         # Work around an acquisition bug in STI101: construct a stimulus
         # channel ourselves from STI001:STI004.
@@ -171,7 +150,8 @@ for participant, dataset in overview.iterrows():
                     delay = 34  # visual delay
                 elif event[2] in [1, 2, 3]:
                     assert exp == 'task'
-                    delay = (scdelay + 34) // 2  # take mean between audio and vis
+                    # take mean between audio and vis
+                    delay = (scdelay + 34) // 2
                 elif event[2] in [4, 5]:
                     pass  # catch have no delay
                 else:
@@ -181,13 +161,13 @@ for participant, dataset in overview.iterrows():
 
         bids_basename = make_bids_basename(subject=participant, task=exp)
         write_raw_bids(raw, bids_basename,
-                       bids_root=bids_root,
+                       bids_root=output_path,
                        events_data=events,
                        event_id=event_name_to_id_mapping,
                        overwrite=True,
                        verbose=False)
 
-        write_anat(bids_root=bids_root,
+        write_anat(bids_root=output_path,
                    subject=participant,
                    t1w=t1w_fname,
                    acquisition='t1w',
