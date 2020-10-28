@@ -2,6 +2,8 @@
 import pathlib
 import tqdm
 from datetime import datetime, timezone
+from collections import Counter
+import numpy as np
 import pandas as pd
 import mne
 from mne_bids import BIDSPath, write_raw_bids, write_anat
@@ -19,6 +21,7 @@ trans_dir = pathlib.Path('/storage/inria/agramfor/camcan_derivatives/'
                          'trans-krieger')
 
 participants = sorted([p.parts[-1] for p in input_dir.glob('*')])
+
 experiments = ('rest', 'task', 'passive')
 
 date_sound_card_change = datetime(month=12, day=8, year=2011,
@@ -63,7 +66,8 @@ with tqdm.tqdm(total=len(participants), desc='Preparing') as progress_bar:
         progress_bar.update()
 
 for participant, excluded in exclude.items():
-    overview.loc[participant, excluded] = False
+    if excluded in experiments:
+        overview.loc[participant, excluded] = False
 
 overview['dataset_complete'] = overview.iloc[:, :-1].all(axis='columns')
 
@@ -116,7 +120,19 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
             stim_data /= 5  # Signal is always +5V
 
             # First channel codes for bit 1, second for bit 2, etc.
-            for stim_ch_idx, _ in enumerate(stim_chs):
+            for stim_ch_idx, stim_ch in enumerate(stim_chs):
+                # First we spot spurious triggers that last too long
+                long_events = mne.find_events(raw, stim_channel=stim_ch,
+                                              min_duration=0.20)
+                # Find all events
+                this_events = mne.find_events(raw, stim_channel=stim_ch,
+                                              min_duration=0.002)
+                # Remove the spurious events
+                this_events = this_events[~np.isin(this_events[:, 0], long_events[:, 0])]
+
+                # Reconstruct a clean stim channel
+                stim_data[stim_ch_idx, :] = 0
+                stim_data[stim_ch_idx, this_events[:, 0] - raw.first_samp] = 1
                 stim_data[stim_ch_idx, :] *= 2**stim_ch_idx
 
             # Create a virtual channel which is the sum of the individual
@@ -127,8 +143,9 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
             stim_raw = mne.io.RawArray(stim_data, info,
                                        first_samp=raw.first_samp)
 
-            events = mne.find_events(stim_raw, stim_channel='STI_VIRTUAL',
-                                     min_duration=0.002)
+            events = mne.find_events(stim_raw, stim_channel='STI_VIRTUAL')
+
+            # print(Counter(events[:, 2]))  # uncomment for debugging
 
             del stim_data, stim_raw, info
 
@@ -167,10 +184,10 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
                            overwrite=True,
                            verbose=False)
 
-            write_anat(root=output_dir,
-                       subject=participant,
-                       t1w=t1w_fname,
-                       acquisition='t1w',
+            t1w_bids_path = BIDSPath(
+                subject=participant, root=output_dir, acquisition='t1w')
+            write_anat(t1w=t1w_fname,
+                       bids_path=t1w_bids_path,
                        trans=trans_fname,
                        raw=raw,
                        overwrite=True,
