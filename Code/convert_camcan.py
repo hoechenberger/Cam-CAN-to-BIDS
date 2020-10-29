@@ -12,8 +12,10 @@ mne.set_log_level(verbose=False)
 
 input_dir = pathlib.Path('/storage/store/data/camcan/camcan47/cc700/meg/'
                          'pipeline/release004/data/aamod_meg_get_fif_00001')
-output_dir = pathlib.Path('/storage/store2/work/rhochenb/'
-                          'Data/Cam-CAN/BIDS-new')
+# output_dir = pathlib.Path('/storage/store2/work/rhochenb/'
+#                           'Data/Cam-CAN/BIDS-new')
+output_dir = pathlib.Path('/storage/store2/data/camcan-bids')
+
 freesurfer_participants_dir = pathlib.Path('/storage/store/data/camcan-mne/'
                                            'freesurfer/')
 # trans_dir = pathlib.Path('/storage/store/data/camcan-mne/trans/')
@@ -66,11 +68,10 @@ with tqdm.tqdm(total=len(participants), desc='Preparing') as progress_bar:
         progress_bar.update()
 
 for participant, excluded in exclude.items():
-    if excluded in experiments:
-        overview.loc[participant, excluded] = False
+    overview.loc[participant, excluded] = False
+
 
 overview['dataset_complete'] = overview.iloc[:, :-1].all(axis='columns')
-
 
 # %%
 if restart_from is not None:
