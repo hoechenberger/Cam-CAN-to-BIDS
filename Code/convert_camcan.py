@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import mne
 from mne_bids import BIDSPath, write_raw_bids, write_anat
+from mne_bids import write_meg_calibration, write_meg_crosstalk
 
 mne.set_log_level(verbose=False)
 
@@ -15,6 +16,11 @@ input_dir = pathlib.Path('/storage/store/data/camcan/camcan47/cc700/meg/'
 # output_dir = pathlib.Path('/storage/store2/work/rhochenb/'
 #                           'Data/Cam-CAN/BIDS-new')
 output_dir = pathlib.Path('/storage/store2/data/camcan-bids')
+
+mf_cal_fname = pathlib.Path('/storage/store2/work/rhochenb/Data/Cam-CAN/'
+                            'Cam-CAN_sss_cal.dat')
+mf_ctc_fname = pathlib.Path('/storage/store2/work/rhochenb/Data/Cam-CAN/'
+                            'Cam-CAN_ct_sparse.fif')
 
 freesurfer_participants_dir = pathlib.Path('/storage/store/data/camcan-mne/'
                                            'freesurfer/')
@@ -85,12 +91,15 @@ event_name_to_id_mapping = {'audiovis/300Hz': 1,
                             'audio/300Hz': 6,
                             'audio/600Hz': 7,
                             'audio/1200Hz': 8,
-                            'vis/checker': 9}
+                            'vis/checker': 9,
+                            'button': 99}
 
 stim_chs = ('STI001', 'STI002', 'STI003', 'STI004')
 
 # %%
 t_start = datetime.now()
+
+# overview = overview.iloc[:3]
 
 with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
     for participant, dataset in overview.iterrows():
@@ -146,6 +155,14 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
 
             events = mne.find_events(stim_raw, stim_channel='STI_VIRTUAL')
 
+            if exp == 'task':  # add button presses for the active task
+                button_events = mne.find_events(raw, stim_channel='STI101', verbose=True)
+                button_events = button_events[button_events[:, 2] > 8000]
+                button_events[:, 2] = 99
+
+                events = np.concatenate([events, button_events], axis=0)
+                events = events[np.argsort(events[:, 0])]
+
             # print(Counter(events[:, 2]))  # uncomment for debugging
 
             del stim_data, stim_raw, info
@@ -169,8 +186,8 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
                         assert exp == 'task'
                         # take mean between audio and vis
                         delay = (scdelay + 34) // 2
-                    elif event[2] in [4, 5]:
-                        pass  # catch have no delay
+                    elif event[2] in [4, 5, 99]:
+                        delay = 0  # catch have no delay
                     else:
                         raise ValueError('Trigger not found')
 
@@ -184,6 +201,9 @@ with tqdm.tqdm(total=len(overview.index), desc='Conversion') as progress_bar:
                            event_id=event_name_to_id_mapping,
                            overwrite=True,
                            verbose=False)
+
+            write_meg_calibration(mf_cal_fname, bids_path)
+            write_meg_crosstalk(mf_ctc_fname, bids_path)
 
             t1w_bids_path = BIDSPath(
                 subject=participant, root=output_dir, acquisition='t1w')
